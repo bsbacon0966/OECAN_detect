@@ -15,7 +15,6 @@
     the `--base-href` argument provided to `flutter build`.
   -->
 
-
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <meta name="description" content="A new Flutter project.">
@@ -25,23 +24,34 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="oceandetect">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
-  <!-- 添加或更新这些行 -->
+
+  <!-- Firebase SDK -->
   <script src="https://www.gstatic.com/firebasejs/9.4.0/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/9.4.0/firebase-analytics.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.4.0/firebase-firestore.js"></script> <!-- 如果你需要使用 Firestore -->
+  <script src="https://www.gstatic.com/firebasejs/9.4.0/firebase-auth.js"></script> <!-- 如果你需要使用 Authentication -->
+
   <script>
-    // 您的 Firebase 配置
-    var firebaseConfig = {
-  apiKey: "AIzaSyDnHioBV21ivSRZPEVtYMfILEh82olBINk",
-  authDomain: "tttttt-1ff23.firebaseapp.com",
-  projectId: "tttttt-1ff23",
-  storageBucket: "tttttt-1ff23.appspot.com",
-  messagingSenderId: "900298023814",
-  appId: "1:900298023814:web:06e8aa1c6fe71767740207",
-  measurementId: "G-H7V4XPN85F"
+    // Firebase 配置
+    const firebaseConfig = {
+      apiKey: "AIzaSyCrIjsFVlPRheY4ouaggDOnt1rrcU1qFvQ",
+      authDomain: "oceandata-a4ab0.firebaseapp.com",
+      projectId: "oceandata-a4ab0",
+      storageBucket: "oceandata-a4ab0.appspot.com",
+      messagingSenderId: "678906130686",
+      appId: "1:678906130686:web:4b05e625658bcf5d03f5af",
+      measurementId: "G-2MYJH0EWPG"
     };
+
     // 初始化 Firebase
     firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+
+    // 可選：初始化其他 Firebase 服務（如 Firestore 或 Authentication）
+    const db = firebase.firestore(); // 如果你需要使用 Firestore
+    const auth = firebase.auth();    // 如果你需要使用 Authentication
   </script>
+
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
 
@@ -49,6 +59,6 @@
   <link rel="manifest" href="manifest.json">
 </head>
 <body>
-  <script src="flutter_bootstrap.js" async></script>
+<script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
