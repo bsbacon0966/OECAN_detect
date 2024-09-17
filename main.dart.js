@@ -71504,10 +71504,18 @@ b=A.h5("yyyy-MM-dd",a1).kZ(new A.bm(r,!1))
 a2=t.w
 a=A.c7(a3,a1,a2).w.a.a>400?A.c7(a3,a1,a2).w.a.a:400
 return A.awY(A.fx(a1,A.akr(A.b([a0.Hn(q,300,a,a3,k,l,"\u6d77\u6eab (Date: "+b+")"),a0.Hn(p,300,a,a3,g,h,"\u5929\u6c23\u6eab\u5ea6 (Date: "+b+")"),a0.Ho(o,300,a,a3,c,d,"Sealevel(m) (Date: "+b+")","{value}m")],t.F)),a1,a1,a1,a1,a1,a1,a),a1,a1,B.aT)},
-Ho(a,b,c,d,e,f,g,h){var s=null,r=B.f.i6(B.c.cD(c/(a.length-1)/50),1,10),q=A.h5("MM-dd",s),p=B.b.gY(a).a,o=B.b.gac(a).a,n=A.b([new A.uQ(new A.Xz(),s,s,s,s,s,s,s,s,s,a,new A.XA(),s,s,B.kJ,B.kC,B.rA,s,!0,1500,B.co,2,s,!0,B.m2,s,s,1,s,B.fI,!0,0,s,s,s,s,t.ky)],t.kl),m=A.P(B.c.aA(76.5),158,158,158),l=t.BV
-l=new A.Jd(!0,B.bc,B.Qc,B.jM,new A.vp(B.E,B.co,1.5,A.qD(s,s,B.j,s,s,s,s,s,s,s,s,s,s,s,B.i9,s,s,!0,s,s,s,s,s,s,s,s),s),new A.XB(),B.A,A.b([],t.Wy),A.b([],t.yv),A.b([],t.PZ),A.b([],l),A.b([],l),A.b([],t.hc),new A.Jh(B.xN,8,8,B.rB,B.ex,B.co,2,s))
-l.a1g()
-return A.fx(s,new A.xL(new A.CU(g,B.cg),new A.Dx(q,B.d9,p,o,!0,!0,B.hj,B.iP,B.ej,new A.vQ(0.5,B.lm),B.ei,s,B.ea,B.d2,s,3,0,0,B.aS,!1,!1,B.bL,B.eM,B.dY,B.eC,r,0,s,1,0,!0,B.eI,s,s,!0,B.mp,s,s,s,s,B.e8,s,0,B.cb,B.ek,s,s,s),new A.G7(h,f,e,!0,!0,new A.Co(0),new A.FA(0),B.ej,B.iO,B.ei,s,B.ea,B.d2,s,3,0,0,B.aS,!1,!1,B.bL,B.eM,B.dY,B.eC,(e-f)/5,0,s,1,0,!0,B.eI,s,s,!0,B.mp,s,s,s,s,B.e8,s,0,B.cb,B.ek,s,s,s),new A.bz(5,5,5,5),l,new A.JN(!0,!0,!0,1,B.rB,m,B.A),n,s),s,s,s,b,s,s,c)},
+Ho(a,b,c,d,e,f,g,h){var s,r,q,p,o,n,m,l=null
+B.f.i6(B.c.cD(c/(a.length-1)/50),1,10)
+s=A.h5("MM-dd",l)
+r=c>=800?1:2
+q=B.b.gY(a).a
+p=B.b.gac(a).a
+o=A.b([new A.uQ(new A.Xz(),l,l,l,l,l,l,l,l,l,a,new A.XA(),l,l,B.kJ,B.kC,B.rA,l,!0,1500,B.co,2,l,!0,B.m2,l,l,1,l,B.fI,!0,0,l,l,l,l,t.ky)],t.kl)
+n=A.P(B.c.aA(76.5),158,158,158)
+m=t.BV
+m=new A.Jd(!0,B.bc,B.Qc,B.jM,new A.vp(B.E,B.co,1.5,A.qD(l,l,B.j,l,l,l,l,l,l,l,l,l,l,l,B.i9,l,l,!0,l,l,l,l,l,l,l,l),l),new A.XB(),B.A,A.b([],t.Wy),A.b([],t.yv),A.b([],t.PZ),A.b([],m),A.b([],m),A.b([],t.hc),new A.Jh(B.xN,8,8,B.rB,B.ex,B.co,2,l))
+m.a1g()
+return A.fx(l,new A.xL(new A.CU(g,B.cg),new A.Dx(s,B.d9,q,p,!0,!0,B.hj,B.iP,B.ej,new A.vQ(0.5,B.lm),B.ei,l,B.ea,B.d2,l,3,0,0,B.aS,!1,!1,B.bL,B.eM,B.dY,B.eC,r,0,l,1,0,!0,B.eI,l,l,!0,B.mp,l,l,l,l,B.e8,l,0,B.cb,B.ek,l,l,l),new A.G7(h,f,e,!0,!0,new A.Co(0),new A.FA(0),B.ej,B.iO,B.ei,l,B.ea,B.d2,l,3,0,0,B.aS,!1,!1,B.bL,B.eM,B.dY,B.eC,(e-f)/5,0,l,1,0,!0,B.eI,l,l,!0,B.mp,l,l,l,l,B.e8,l,0,B.cb,B.ek,l,l,l),new A.bz(5,5,5,5),m,new A.JN(!0,!0,!0,1,B.rB,n,B.A),o,l),l,l,l,b,l,l,c)},
 Hn(a,b,c,d,e,f,g){return this.Ho(a,b,c,d,e,f,g,"{value}\xb0C")}}
 A.XC.prototype={
 $1(a){var s=A.be(J.lI(a.b,"ocean_temperature")),r=A.aeS(B.d.ox(a.a," ","T")),q=A.pN(s)
