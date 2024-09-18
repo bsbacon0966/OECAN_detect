@@ -23752,8 +23752,8 @@ zd:function zd(){},
 KY:function KY(){},
 KZ:function KZ(){},
 BR:function BR(){},
-agd(a,b,c,d,e,f,g,h,i){var s=null
-return new A.v2(g,s,s,s,f,s,s,s,s,s,b,e,s,s,B.kV,B.kO,B.rJ,c,!0,1500,a,d,s,!0,B.mc,s,s,1,s,B.fV,!0,0,s,s,s,s,h.i("@<0>").a5(i).i("v2<1,2>"))},
+agd(a,b,c,d,e,f,g,h,i,j){var s=null
+return new A.v2(h,s,s,s,g,s,s,s,s,s,c,f,s,s,B.kV,B.kO,B.rJ,d,!0,a,b,e,s,!0,B.mc,s,s,1,s,B.fV,!0,0,s,s,s,s,i.i("@<0>").a5(j).i("v2<1,2>"))},
 avg(a,b){var s=A.b([],t.t),r=t.yv,q=A.b([],r),p=$.R(),o=p.au()
 o.scM(!0)
 p=p.au()
@@ -72433,18 +72433,18 @@ return A.a4R(A.eJ(a7,A.alx(A.b([a6.HM(n,300,b0,b1,0.4,a4,a3,"Sealevel(m)","{valu
 HM(a,b,c,d,e,f,g,h,i){var s,r,q=null,p=A.ajO(B.br,h),o=A.fG("MM-dd",q),n=c>=800?1:2,m=B.b.gY(a).a
 m=A.ak_(o,n,B.cp,new A.pA(0.5,B.i5),B.b.gad(a).a,m)
 n=A.agO(new A.oo(0),e,i,new A.pB(0),f,g,q,!1)
-o=A.b([A.agd(B.bk,a,q,2,new A.Yd(),q,new A.Ye(),t.En,t.W7)],t.kl)
+o=A.b([A.agd(0,B.bk,a,q,2,new A.Yd(),q,new A.Ye(),t.En,t.W7)],t.kl)
 s=A.anr(!0,!0,!0,B.dW,1,A.O(B.c.az(76.5),158,158,158))
 r=A.ala(B.bk,1.5,B.C,q,A.qN(q,q,B.j,q,q,q,q,q,q,q,q,q,q,q,B.im,q,q,!0,q,q,q,q,q,q,q,q))
 return A.eJ(q,A.amC(B.FM,B.Ei,new A.bm(5,5,5,5),m,n,o,p,A.ana(B.aW,new A.Yf(),!0,B.xX,A.anb(B.bk,2,B.dW,B.jX,B.dp),B.jW,r),s),q,q,q,b,q,q,c)},
 HL(a,b,c,d,e,f,g,h){return this.HM(a,b,c,d,e,f,g,h,"{value}")},
 z9(a,b,c,d,e,f,g,h,i,j,a0,a1,a2,a3){var s,r,q,p=null,o="secondaryYAxis",n=A.ajO(B.br,a3),m=A.fG("MM-dd",p),l=b>=800?1:2,k=B.b.gY(d).a
 k=A.ak_(m,l,B.cp,new A.pA(0.5,B.i5),B.b.gad(d).a,k)
-l=A.agO(new A.oo(0),e,"{value}\xb0C",new A.pB(0),f,g,p,!1)
+l=A.agO(new A.oo(0),e,"{value}",new A.pB(0),f,g,p,!1)
 m=A.b([A.agO(new A.oo(0),j,"{value}",new A.pB(0),a0,a1,o,!0)],t.fK)
 s=t.En
 r=t.W7
-r=A.b([A.agd(B.bk,d,h,2,new A.Yg(),p,new A.Yh(),s,r),A.agd(B.dW,i,a2,2,new A.Yi(),o,new A.Yj(),s,r)],t.kl)
+r=A.b([A.agd(0,B.bk,d,h,2,new A.Yg(),p,new A.Yh(),s,r),A.agd(0,B.dW,i,a2,2,new A.Yi(),o,new A.Yj(),s,r)],t.kl)
 s=A.anr(!0,!0,!0,B.dW,1,A.O(B.c.az(76.5),158,158,158))
 q=A.ala(B.bk,1.5,B.C,p,p)
 return A.eJ(p,A.amC(m,new A.vT(!0,B.Ee,B.E8),new A.bm(5,5,5,5),k,l,r,n,A.ana(B.aW,new A.Yk(h,a2),!0,B.xX,A.anb(B.bk,2,B.dW,B.jX,B.dp),B.ca,q),s),p,p,p,a,p,p,b)}}
