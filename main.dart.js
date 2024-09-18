@@ -72875,7 +72875,7 @@ a9=B.c.cZ(a7)
 Date.now()
 b5=t.w
 b0=A.c9(b6,b2,b5).w.a.a>400?A.c9(b6,b2,b5).w.a.a:400
-return A.a5C(A.dT(b2,A.ams(A.b([b1.Iw(n,300,b0,b6,0.4,a9,a8,"Sealevel(m)","{value}m"),b1.zK(300,b0,b6,o,2,a5,a4,b3,m,1,30,35,"Salinity",b3),b1.zK(300,b0,b6,l,2,5,0,"chla",k,20,100,0,b4,"Chla ,Turbidity"),b1.zK(300,b0,b6,j,1.5,3,9,"chla",i,25,150,50,b4,"Dissol. Oxygen , Oxygen Sat"),b1.ue(h,300,b0,b6,5,35,20,"AirTC"),b1.a01(300,b0,b6,f,2.5,15,11,"battery",g,500,2500,0,"solar","battery ,solar"),b1.ue(e,300,b0,b6,20,100,60,"RH"),b1.ue(d,300,b0,b6,5,1015,995,"BP"),b1.ue(c,300,b0,b6,4,20,0,"precipitation"),b1.a02(300,b0,b6,b,1,8,0,"windspeed",a,45,360,0,"winddirect","wind direction and speed")],t.F)),b2,b2,b2,b2,b2,b2,b0*0.9),b2,b2,B.aF)},
+return A.a5C(A.dT(b2,A.ams(A.b([b1.Iw(n,300,b0,b6,0.4,a9,a8,"Sealevel(m)","{value}m"),b1.zK(300,b0,b6,o,2,a5,a4,b3,m,1,30,35,"Salinity",b3),b1.zK(300,b0,b6,l,2,5,0,"chla",k,20,100,0,b4,"Chla ,Turbidity"),b1.zK(300,b0,b6,j,1.5,3,9,"chla",i,25,150,50,b4,"Dissol. Oxygen , Oxygen Sat"),b1.ue(h,300,b0,b6,5,35,20,"AirTC"),b1.a01(300,b0,b6,f,2.5,15,11,"battery",g,500,2500,0,"solar","battery ,solar"),b1.ue(e,300,b0,b6,20,100,60,"RH"),b1.ue(d,300,b0,b6,5,1015,995,"BP"),b1.ue(c,300,b0,b6,60,100,0,"precipitation"),b1.a02(300,b0,b6,b,1,8,0,"windspeed",a,45,360,0,"winddirect","wind direction and speed")],t.F)),b2,b2,b2,b2,b2,b2,b0*0.9),b2,b2,B.aF)},
 Iw(a,b,c,d,e,f,g,h,i){var s,r,q=null,p=A.TW(B.b_,h),o=A.e8("MM-dd",q),n=c>=800?1:2,m=B.b.gX(a).a
 m=A.UQ(o,n,B.bA,new A.kR(0.5,B.dy),B.b.gad(a).a,m)
 n=A.pZ(new A.j1(0),e,i,new A.jm(0),f,g,q,!1)
