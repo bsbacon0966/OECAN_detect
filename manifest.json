@@ -1,6 +1,6 @@
 {
-    "name": "oceandetect",
-    "short_name": "oceandetect",
+    "name": "oceanseawatch",
+    "short_name": "oceanseawatch",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

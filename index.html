@@ -22,43 +22,16 @@
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="oceandetect">
+  <meta name="apple-mobile-web-app-title" content="oceanseawatch">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
-
-  <!-- Firebase SDK -->
-  <script src="https://www.gstatic.com/firebasejs/9.4.0/firebase-app.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/9.4.0/firebase-analytics.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/9.4.0/firebase-firestore.js"></script> <!-- 如果你需要使用 Firestore -->
-  <script src="https://www.gstatic.com/firebasejs/9.4.0/firebase-auth.js"></script> <!-- 如果你需要使用 Authentication -->
-
-  <script>
-    // Firebase 配置
-    const firebaseConfig = {
-      apiKey: "AIzaSyCrIjsFVlPRheY4ouaggDOnt1rrcU1qFvQ",
-      authDomain: "oceandata-a4ab0.firebaseapp.com",
-      projectId: "oceandata-a4ab0",
-      storageBucket: "oceandata-a4ab0.appspot.com",
-      messagingSenderId: "678906130686",
-      appId: "1:678906130686:web:4b05e625658bcf5d03f5af",
-      measurementId: "G-2MYJH0EWPG"
-    };
-
-    // 初始化 Firebase
-    firebase.initializeApp(firebaseConfig);
-    firebase.analytics();
-
-    // 可選：初始化其他 Firebase 服務（如 Firestore 或 Authentication）
-    const db = firebase.firestore(); // 如果你需要使用 Firestore
-    const auth = firebase.auth();    // 如果你需要使用 Authentication
-  </script>
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
 
-  <title>oceandetect</title>
+  <title>oceanseawatch</title>
   <link rel="manifest" href="manifest.json">
 </head>
 <body>
-<script src="flutter_bootstrap.js" async></script>
+  <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
